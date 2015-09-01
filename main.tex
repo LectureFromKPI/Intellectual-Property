@@ -7,9 +7,16 @@
 \usepackage[ukrainian]{babel}
 \usepackage{tikz}
 \usepackage[unicode,colorlinks]{hyperref}
+\usepackage{pdfpages}
 \usepackage{lecturemath}
 \usetikzlibrary{patterns,positioning}
-\setlength{\parindent}{1.25cm}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+
 \begin{document}
 \tableofcontents
 \numberwithin{equation}{section}
