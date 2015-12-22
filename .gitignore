@@ -1,5 +1,7 @@
-/main.toc
-/main.synctex.gz
-/main.out
-/main.log
+*.dvi
 *.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+
